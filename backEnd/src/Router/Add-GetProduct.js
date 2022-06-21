@@ -64,7 +64,7 @@ router.get("/Products", verify, cors(), async (req, res) => {
 router.put("/Products", verify, cors(), async (req, res) => {
     try {
         const findProduct = await ProductsSchema.find()
-        console.log(findProduct)
+        console.log("findProduct",findProduct)
         res.status(200).send(findProduct)
     } catch (e) {
         res.status(400).send({ error: "can not find any product" })
