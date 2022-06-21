@@ -1,0 +1,8 @@
+.ant-form-item-label{
+   max-width: 131px;
+   text-align: left !important;
+}
+.ant-form-horizontal .ant-form-item-control{
+    margin:0px !important;
+    padding: 0px 10px;
+}

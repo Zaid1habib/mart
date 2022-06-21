@@ -1,0 +1,26 @@
+.css-134qg7o-MuiButtonBase-root-MuiIconButton-root {
+    background-color: transparent;
+    width: 36px !important;
+    border-radius: 0;
+    margin-right: 23px;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    border-radius: 0px !important;
+}
+
+.css-10hburv-MuiTypography-root {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    left: 0px;
+    display: flex !important;
+    align-items: center;
+    padding-left: 50px !important;
+    height: 100%;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    border-bottom: 1px solid #3c76d2 !important;
+    box-shadow: 0 4px 2px -2px #3c76d2  !important;
+}

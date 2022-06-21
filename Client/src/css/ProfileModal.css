@@ -1,0 +1,46 @@
+.profileBack {
+    position: fixed;
+    background-color: #00000024;
+    top: 0px;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    left: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.profilemodal{
+    position: fixed;
+    padding: 10px;
+    height: fit-content;
+    right: 2%;
+    top: 74px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    flex-direction: column;
+    border-radius: 4px;
+    z-index: 1000;
+}
+.profile-Modal-image{
+    height: 72px;
+    border-radius: 65px;
+    border: 1px solid #dbdbdb7d;
+}
+.profile-avatar-name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-modal-button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: cente r; */
+}

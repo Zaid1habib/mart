@@ -1,0 +1,29 @@
+.css-1633um2-MuiPaper-root {
+    padding: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.css-1fsuvm2-JoySlider-track {
+    background-color: blue !important;
+}
+
+img {
+    object-fit: contain;
+}
+
+.MuiButtonGroup-root {
+    width: 100px !important;
+    margin: 20px 15px 20px 10px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    display: "flex" !important;
+    flex-direction: "column" !important;
+    padding: 10px;
+}
+.MuiButtonBase-root{
+    padding: 4px !important;
+    width: 100% !important; 
+}

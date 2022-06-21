@@ -1,0 +1,18 @@
+.carousel {
+    position: relative;
+    height: 60vh;
+}
+
+.carousel-control-next {
+    display: none;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+.w-100 {
+    width: 100% !important;
+    object-fit: contain;
+    height: 394px;
+}

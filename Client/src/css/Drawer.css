@@ -1,0 +1,40 @@
+.ant-radio-group {
+    visibility: hidden !important;
+    width: 0px;
+}
+
+.Go-right {
+    left: 378px;
+    z-index: 1049 !important;
+    transition: "z-index" 0.6s;
+}
+
+.left {
+    left: -10px;
+
+}
+
+.open {
+    top: 5%;
+}
+
+.drawer-btn {
+    /* padding: 10px  !important; */
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    /* font-size: 32px; */
+    text-align: center;
+    width: 28px !important;
+    height: 100px !important;
+    position: fixed;
+    top: 50%;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 0;
+}
+.ant-drawer.ant-drawer-open .ant-drawer-mask{
+    z-index: 100;
+}
+.ant-drawer-content-wrapper{
+    z-index: 103;
+
+}
